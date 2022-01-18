@@ -1,0 +1,230 @@
+/* base classes */
+.container{
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+/* header */
+.header-img{
+    background-image: url("../images/Group\ 65.png");
+    width: 100%;
+    height: 324px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navigatsia{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.logo{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.d-flex li{
+    margin-right: 50px;
+}
+.d-flex li:last-child{
+    margin-right: 0;
+}
+.nav-a{
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.active{
+    color: #5863F8;
+}
+.contact{
+    font-size: 42px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+.home{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.aft::after{
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 19px;
+    background-color: #FFFFFF;
+    margin-left: 14.5px;
+    margin-right: 14.5px;
+    vertical-align: middle;
+}
+.dd-flex{
+    display: flex;
+}
+/* map section */
+.map{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 56px;
+    height: 286px;
+}
+/* form section width headings */
+.small-title{
+    font-size: 14px;
+    color: #5863F8;
+    text-transform: uppercase;
+}
+.big-title{
+    font-size: 42px;
+    color: #000000;
+    margin-top: 5px;
+    max-width: 565px;
+    width: 100%;
+}
+.line{
+    max-width: 378px;
+    width: 100%;
+}
+.form-div{
+    display: flex;
+    justify-content: space-between;
+    height: 288px;
+    margin-top: 50px;
+}
+.textarea{
+    max-width: 720px;
+    width: 100%;
+}
+.textarea textarea{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #CECECE;
+}
+.textarea textarea::placeholder,
+.right-side input::placeholder{
+    font-size: 13px;
+    color: #CECECE;
+    text-transform: capitalize;
+    padding: 20px;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    max-width: 352px;
+    width: 100%;
+}
+.right-side input{
+    border: 2px solid #CECECE;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 16px;
+}
+.right-side button{
+    height: 60px;
+    background-color: #5863F8;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+/* contact section bottom side */
+.contact-divs{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 90px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blueback{
+    width: 59px;
+    height: 58px;
+    border-radius: 50px;
+    background-color: #5863F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blueback i{
+    color: #FFFFFF;
+}
+.block h3{
+    font-size: 18px;
+    color: #000000;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+.block ul li a{
+    font-size: 14px;
+    color: #B1B1B1;
+    text-transform: lowercase;
+}
+.block ul li{
+    text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+.hotels{
+    margin-top: 55px;
+    max-width: 352px;
+    width: 100%;
+    height: 352px;
+}
+.hotels img{
+    width: 100%;
+    height: 100%;
+    size: cover;
+}
+/* footer */
+.footer-bk{
+    background-color: #121212;
+    width: 100%;
+    height: 395px;
+    padding-top: 90px
+}
+.ft-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 260px;
+    width: 100%;
+    height: 191px;
+}
+.ft-info h3{
+    font-size: 24px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.ft-info p{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.icons{
+    display: flex;
+}
+.icons-bk{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #3B5998;
+} 
+.icons-bk:nth-child(2){
+    background-color: #55ACEE;
+    margin-left: 10.4px;
+    margin-right: 10.4px;
+}  
+.icons-bk:last-child{
+    background-color: #DC4E41;
+}
